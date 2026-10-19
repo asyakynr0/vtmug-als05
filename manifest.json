@@ -1,0 +1,14 @@
+
+{
+  "id": "./",
+  "name": "Yeşil Market - Akıllı Sepet",
+  "short_name": "Yeşil Market",
+  "description": "Market ürünlerini barkodla tara ve sepet tutarını hesapla.",
+  "lang": "tr-TR",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#f2f6f2",
+  "theme_color": "#176b45"
+}

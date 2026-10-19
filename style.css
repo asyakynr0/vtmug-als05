@@ -1,0 +1,221 @@
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f2f6f2;
+  color: #24372b;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 18px;
+  background: #176b45;
+  color: white;
+}
+
+.logo {
+  width: 48px;
+  height: 48px;
+  border-radius: 14px;
+  background: white;
+  color: #176b45;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.header h1 {
+  margin: 0;
+  font-size: 21px;
+}
+
+.header p {
+  margin: 5px 0 0;
+  font-size: 12px;
+  color: #d9eee1;
+}
+
+.container {
+  width: 100%;
+  max-width: 650px;
+  margin: auto;
+  padding: 18px;
+}
+
+.welcome {
+  padding: 12px 2px 20px;
+}
+
+.welcome h2 {
+  font-size: 27px;
+  margin-bottom: 10px;
+  color: #176b45;
+}
+
+.welcome p {
+  color: #66766b;
+  line-height: 1.6;
+}
+
+.card {
+  background: white;
+  padding: 20px;
+  margin-bottom: 18px;
+  border-radius: 18px;
+  box-shadow: 0 4px 15px #183d2810;
+}
+
+.card h3 {
+  margin-top: 0;
+}
+
+.buttons {
+  display: flex;
+  gap: 8px;
+  margin: 18px 0;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  border-radius: 10px;
+  padding: 13px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.buttons button {
+  flex: 1;
+  background: #edf2ed;
+  color: #45604d;
+}
+
+.buttons button.active {
+  background: #176b45;
+  color: white;
+}
+
+.primary {
+  background: #176b45;
+  color: white;
+}
+
+.secondary {
+  background: #e9f3eb;
+  color: #176b45;
+}
+
+#startCamera {
+  width: 100%;
+  margin-top: 12px;
+}
+
+#message {
+  color: #68796d;
+  font-size: 13px;
+  line-height: 1.5;
+}
+
+#camera {
+  width: 100%;
+  max-height: 300px;
+  background: #18251d;
+  border-radius: 12px;
+}
+
+label {
+  display: block;
+  font-size: 13px;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.input-row {
+  display: flex;
+  gap: 8px;
+}
+
+.input-row input {
+  flex: 1;
+  width: 0;
+  min-width: 0;
+  padding: 12px;
+  border: 1px solid #d4dfd6;
+  border-radius: 10px;
+  font-size: 15px;
+}
+
+.input-row input:focus {
+  outline: 2px solid #8bc6a1;
+}
+
+#result p {
+  color: #68796d;
+  line-height: 1.6;
+}
+
+.product {
+  padding: 12px 0;
+  border-bottom: 1px solid #e5ebe6;
+}
+
+.product strong {
+  display: block;
+  margin-bottom: 6px;
+}
+
+.product-price {
+  display: block;
+  margin-top: 8px;
+  color: #176b45;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#basketItems {
+  margin: 15px 0;
+}
+
+.basket-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  padding: 12px 0;
+  border-bottom: 1px solid #e5ebe6;
+}
+
+.basket-row button {
+  padding: 6px 10px;
+  background: #edf2ed;
+  color: #176b45;
+}
+
+#basket h2 {
+  font-size: 20px;
+  color: #176b45;
+  margin-top: 20px;
+}
+
+#basket h2 span {
+  display: block;
+  margin-top: 8px;
+}
+
+@media (min-width: 600px) {
+  .container {
+    padding-top: 28px;
+  }
+
+  .welcome h2 {
+    font-size: 34px;
+  }
+}
